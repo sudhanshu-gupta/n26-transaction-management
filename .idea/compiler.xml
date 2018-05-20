@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="in-memory-ds" />
+        <module name="inmemory-ds" />
+        <module name="n26-transaction-management-service" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="in-memory-ds" target="1.8" />
+      <module name="inmemory-ds" target="1.6" />
+      <module name="n26-transaction-management" target="1.8" />
+      <module name="n26-transaction-management-service" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
